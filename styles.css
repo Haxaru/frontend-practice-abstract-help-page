@@ -1,0 +1,141 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.nav-bar {
+  align-items: center;
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px 15px 25px;
+}
+
+button:first-child {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid white;
+  margin-right: 15px;
+}
+
+button:last-child {
+  background-color: #4c5fd5;
+  border-style: none;
+}
+
+button:last-child:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+button:first-child,
+button:last-child {
+  border-radius: 5px;
+  color: white;
+  padding: 15px 20px 15px 20px;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* end of nav-bar and animations */
+
+.part-1 {
+  align-items: center;
+  background-color: #dadbf1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px 0 115px 0;
+  width: auto;
+}
+
+.content > p {
+  font-size: 3.125rem;
+  font-weight: 500;
+}
+
+.search {
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  width: 60vw;
+}
+
+.search > p {
+  color: lightgrey;
+  margin: 0;
+  user-select: none;
+}
+
+/* end of part one */
+
+.chunk > img {
+  width: 150px;
+  height: 150px;
+}
+
+.part-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.chunk {
+  display: flex;
+  text-align: left;
+  width: 50ch;
+  gap: 10px;
+  margin: 50px;
+}
+
+.chunk > a {
+  color: #dadbf1;
+}
+.separator {
+  display: flex;
+}
+
+/* end of part-2 */
+
+.part-3 {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.part-3 > div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.part-3 > div > p {
+  margin: 3px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+footer > p > a,
+footer {
+  color: white;
+}
